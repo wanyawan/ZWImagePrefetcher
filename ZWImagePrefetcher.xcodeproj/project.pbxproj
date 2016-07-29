@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1FF262A9D2B85874E83536 /* libPods-ZWImagePrefetcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B93615DD8D5C4A128E330D6 /* libPods-ZWImagePrefetcher.a */; };
 		FA0500781D4B68EC007D2FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500771D4B68EC007D2FD0 /* main.m */; };
 		FA05007B1D4B68EC007D2FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05007A1D4B68EC007D2FD0 /* AppDelegate.m */; };
 		FA05007E1D4B68EC007D2FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05007D1D4B68EC007D2FD0 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		FA0500861D4B68EC007D2FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0500841D4B68EC007D2FD0 /* LaunchScreen.storyboard */; };
 		FA0500911D4B68EC007D2FD0 /* ZWImagePrefetcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500901D4B68EC007D2FD0 /* ZWImagePrefetcherTests.m */; };
 		FA05009C1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05009B1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m */; };
+		FA0500AC1D4B6922007D2FD0 /* ZWImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500AB1D4B6922007D2FD0 /* ZWImagePrefetcher.m */; };
+		FA0500AF1D4B6942007D2FD0 /* NSArray+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500AE1D4B6942007D2FD0 /* NSArray+Image.m */; };
+		FA0500B91D4B6FB1007D2FD0 /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500B71D4B6FB1007D2FD0 /* DemoTableViewCell.m */; };
+		FA0500BA1D4B6FB1007D2FD0 /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0500B81D4B6FB1007D2FD0 /* DemoTableViewCell.xib */; };
+		FA0500BD1D4B71F6007D2FD0 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500BC1D4B71F6007D2FD0 /* DemoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B93615DD8D5C4A128E330D6 /* libPods-ZWImagePrefetcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWImagePrefetcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A641FA4D128677C3E8C438 /* Pods-ZWImagePrefetcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWImagePrefetcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWImagePrefetcher/Pods-ZWImagePrefetcher.debug.xcconfig"; sourceTree = "<group>"; };
+		E4CBD259A1AE07F262FAE4BA /* Pods-ZWImagePrefetcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWImagePrefetcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWImagePrefetcher/Pods-ZWImagePrefetcher.release.xcconfig"; sourceTree = "<group>"; };
 		FA0500731D4B68EC007D2FD0 /* ZWImagePrefetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWImagePrefetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0500771D4B68EC007D2FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA0500791D4B68EC007D2FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA05007A1D4B68EC007D2FD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA05007C1D4B68EC007D2FD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA05007D1D4B68EC007D2FD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA05007C1D4B68EC007D2FD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		FA05007D1D4B68EC007D2FD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		FA0500801D4B68EC007D2FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA0500821D4B68EC007D2FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0500851D4B68EC007D2FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		FA0500971D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWImagePrefetcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA05009B1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWImagePrefetcherUITests.m; sourceTree = "<group>"; };
 		FA05009D1D4B68EC007D2FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0500AA1D4B6922007D2FD0 /* ZWImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImagePrefetcher.h; sourceTree = "<group>"; };
+		FA0500AB1D4B6922007D2FD0 /* ZWImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImagePrefetcher.m; sourceTree = "<group>"; };
+		FA0500AD1D4B6942007D2FD0 /* NSArray+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Image.h"; sourceTree = "<group>"; };
+		FA0500AE1D4B6942007D2FD0 /* NSArray+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Image.m"; sourceTree = "<group>"; };
+		FA0500B61D4B6FB1007D2FD0 /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
+		FA0500B71D4B6FB1007D2FD0 /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
+		FA0500B81D4B6FB1007D2FD0 /* DemoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
+		FA0500BB1D4B71F6007D2FD0 /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		FA0500BC1D4B71F6007D2FD0 /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1FF262A9D2B85874E83536 /* libPods-ZWImagePrefetcher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871DC3030A3B754742646F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B93615DD8D5C4A128E330D6 /* libPods-ZWImagePrefetcher.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF59E2468E538CA6D2742D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66A641FA4D128677C3E8C438 /* Pods-ZWImagePrefetcher.debug.xcconfig */,
+				E4CBD259A1AE07F262FAE4BA /* Pods-ZWImagePrefetcher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA05006A1D4B68EC007D2FD0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				FA05008F1D4B68EC007D2FD0 /* ZWImagePrefetcherTests */,
 				FA05009A1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests */,
 				FA0500741D4B68EC007D2FD0 /* Products */,
+				AF59E2468E538CA6D2742D39 /* Pods */,
+				871DC3030A3B754742646F3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +139,10 @@
 		FA0500751D4B68EC007D2FD0 /* ZWImagePrefetcher */ = {
 			isa = PBXGroup;
 			children = (
+				FA0500A91D4B6916007D2FD0 /* ZWImagePrefetcher */,
+				FA0500B01D4B6D59007D2FD0 /* Demo */,
 				FA0500791D4B68EC007D2FD0 /* AppDelegate.h */,
 				FA05007A1D4B68EC007D2FD0 /* AppDelegate.m */,
-				FA05007C1D4B68EC007D2FD0 /* ViewController.h */,
-				FA05007D1D4B68EC007D2FD0 /* ViewController.m */,
-				FA05007F1D4B68EC007D2FD0 /* Main.storyboard */,
 				FA0500821D4B68EC007D2FD0 /* Assets.xcassets */,
 				FA0500841D4B68EC007D2FD0 /* LaunchScreen.storyboard */,
 				FA0500871D4B68EC007D2FD0 /* Info.plist */,
@@ -140,6 +177,32 @@
 			path = ZWImagePrefetcherUITests;
 			sourceTree = "<group>";
 		};
+		FA0500A91D4B6916007D2FD0 /* ZWImagePrefetcher */ = {
+			isa = PBXGroup;
+			children = (
+				FA0500AA1D4B6922007D2FD0 /* ZWImagePrefetcher.h */,
+				FA0500AB1D4B6922007D2FD0 /* ZWImagePrefetcher.m */,
+				FA0500AD1D4B6942007D2FD0 /* NSArray+Image.h */,
+				FA0500AE1D4B6942007D2FD0 /* NSArray+Image.m */,
+			);
+			path = ZWImagePrefetcher;
+			sourceTree = "<group>";
+		};
+		FA0500B01D4B6D59007D2FD0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FA05007C1D4B68EC007D2FD0 /* ViewController.h */,
+				FA05007D1D4B68EC007D2FD0 /* ViewController.m */,
+				FA05007F1D4B68EC007D2FD0 /* Main.storyboard */,
+				FA0500B61D4B6FB1007D2FD0 /* DemoTableViewCell.h */,
+				FA0500B71D4B6FB1007D2FD0 /* DemoTableViewCell.m */,
+				FA0500B81D4B6FB1007D2FD0 /* DemoTableViewCell.xib */,
+				FA0500BB1D4B71F6007D2FD0 /* DemoModel.h */,
+				FA0500BC1D4B71F6007D2FD0 /* DemoModel.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA0500A01D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcher" */;
 			buildPhases = (
+				3F9DB21766083EB25B3F58CF /* [CP] Check Pods Manifest.lock */,
 				FA05006F1D4B68EC007D2FD0 /* Sources */,
 				FA0500701D4B68EC007D2FD0 /* Frameworks */,
 				FA0500711D4B68EC007D2FD0 /* Resources */,
+				EDB53C1BF3EDFFB3387A5C45 /* [CP] Embed Pods Frameworks */,
+				2A35F776C9A25EB41376C505 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +311,7 @@
 			files = (
 				FA0500861D4B68EC007D2FD0 /* LaunchScreen.storyboard in Resources */,
 				FA0500831D4B68EC007D2FD0 /* Assets.xcassets in Resources */,
+				FA0500BA1D4B6FB1007D2FD0 /* DemoTableViewCell.xib in Resources */,
 				FA0500811D4B68EC007D2FD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,13 +332,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A35F776C9A25EB41376C505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWImagePrefetcher/Pods-ZWImagePrefetcher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F9DB21766083EB25B3F58CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB53C1BF3EDFFB3387A5C45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWImagePrefetcher/Pods-ZWImagePrefetcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA05006F1D4B68EC007D2FD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0500AF1D4B6942007D2FD0 /* NSArray+Image.m in Sources */,
+				FA0500BD1D4B71F6007D2FD0 /* DemoModel.m in Sources */,
 				FA05007E1D4B68EC007D2FD0 /* ViewController.m in Sources */,
+				FA0500B91D4B6FB1007D2FD0 /* DemoTableViewCell.m in Sources */,
 				FA05007B1D4B68EC007D2FD0 /* AppDelegate.m in Sources */,
+				FA0500AC1D4B6922007D2FD0 /* ZWImagePrefetcher.m in Sources */,
 				FA0500781D4B68EC007D2FD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +433,7 @@
 				FA0500801D4B68EC007D2FD0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FA0500841D4B68EC007D2FD0 /* LaunchScreen.storyboard */ = {
@@ -411,6 +531,7 @@
 		};
 		FA0500A11D4B68EC007D2FD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A641FA4D128677C3E8C438 /* Pods-ZWImagePrefetcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWImagePrefetcher/Info.plist;
@@ -422,6 +543,7 @@
 		};
 		FA0500A21D4B68EC007D2FD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4CBD259A1AE07F262FAE4BA /* Pods-ZWImagePrefetcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZWImagePrefetcher/Info.plist;
@@ -496,6 +618,7 @@
 				FA0500A21D4B68EC007D2FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA0500A31D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcherTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +627,7 @@
 				FA0500A51D4B68EC007D2FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA0500A61D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcherUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +636,7 @@
 				FA0500A81D4B68EC007D2FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
