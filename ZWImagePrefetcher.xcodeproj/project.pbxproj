@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0500781D4B68EC007D2FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500771D4B68EC007D2FD0 /* main.m */; };
+		FA05007B1D4B68EC007D2FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05007A1D4B68EC007D2FD0 /* AppDelegate.m */; };
+		FA05007E1D4B68EC007D2FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05007D1D4B68EC007D2FD0 /* ViewController.m */; };
+		FA0500811D4B68EC007D2FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA05007F1D4B68EC007D2FD0 /* Main.storyboard */; };
+		FA0500831D4B68EC007D2FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0500821D4B68EC007D2FD0 /* Assets.xcassets */; };
+		FA0500861D4B68EC007D2FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA0500841D4B68EC007D2FD0 /* LaunchScreen.storyboard */; };
+		FA0500911D4B68EC007D2FD0 /* ZWImagePrefetcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0500901D4B68EC007D2FD0 /* ZWImagePrefetcherTests.m */; };
+		FA05009C1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05009B1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA05008D1D4B68EC007D2FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA05006B1D4B68EC007D2FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0500721D4B68EC007D2FD0;
+			remoteInfo = ZWImagePrefetcher;
+		};
+		FA0500981D4B68EC007D2FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA05006B1D4B68EC007D2FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA0500721D4B68EC007D2FD0;
+			remoteInfo = ZWImagePrefetcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0500731D4B68EC007D2FD0 /* ZWImagePrefetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWImagePrefetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0500771D4B68EC007D2FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA0500791D4B68EC007D2FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA05007A1D4B68EC007D2FD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA05007C1D4B68EC007D2FD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA05007D1D4B68EC007D2FD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA0500801D4B68EC007D2FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA0500821D4B68EC007D2FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0500851D4B68EC007D2FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA0500871D4B68EC007D2FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA05008C1D4B68EC007D2FD0 /* ZWImagePrefetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWImagePrefetcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0500901D4B68EC007D2FD0 /* ZWImagePrefetcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWImagePrefetcherTests.m; sourceTree = "<group>"; };
+		FA0500921D4B68EC007D2FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0500971D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWImagePrefetcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA05009B1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWImagePrefetcherUITests.m; sourceTree = "<group>"; };
+		FA05009D1D4B68EC007D2FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0500701D4B68EC007D2FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0500891D4B68EC007D2FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0500941D4B68EC007D2FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA05006A1D4B68EC007D2FD0 = {
+			isa = PBXGroup;
+			children = (
+				FA0500751D4B68EC007D2FD0 /* ZWImagePrefetcher */,
+				FA05008F1D4B68EC007D2FD0 /* ZWImagePrefetcherTests */,
+				FA05009A1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests */,
+				FA0500741D4B68EC007D2FD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0500741D4B68EC007D2FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0500731D4B68EC007D2FD0 /* ZWImagePrefetcher.app */,
+				FA05008C1D4B68EC007D2FD0 /* ZWImagePrefetcherTests.xctest */,
+				FA0500971D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0500751D4B68EC007D2FD0 /* ZWImagePrefetcher */ = {
+			isa = PBXGroup;
+			children = (
+				FA0500791D4B68EC007D2FD0 /* AppDelegate.h */,
+				FA05007A1D4B68EC007D2FD0 /* AppDelegate.m */,
+				FA05007C1D4B68EC007D2FD0 /* ViewController.h */,
+				FA05007D1D4B68EC007D2FD0 /* ViewController.m */,
+				FA05007F1D4B68EC007D2FD0 /* Main.storyboard */,
+				FA0500821D4B68EC007D2FD0 /* Assets.xcassets */,
+				FA0500841D4B68EC007D2FD0 /* LaunchScreen.storyboard */,
+				FA0500871D4B68EC007D2FD0 /* Info.plist */,
+				FA0500761D4B68EC007D2FD0 /* Supporting Files */,
+			);
+			path = ZWImagePrefetcher;
+			sourceTree = "<group>";
+		};
+		FA0500761D4B68EC007D2FD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0500771D4B68EC007D2FD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA05008F1D4B68EC007D2FD0 /* ZWImagePrefetcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0500901D4B68EC007D2FD0 /* ZWImagePrefetcherTests.m */,
+				FA0500921D4B68EC007D2FD0 /* Info.plist */,
+			);
+			path = ZWImagePrefetcherTests;
+			sourceTree = "<group>";
+		};
+		FA05009A1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA05009B1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m */,
+				FA05009D1D4B68EC007D2FD0 /* Info.plist */,
+			);
+			path = ZWImagePrefetcherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0500721D4B68EC007D2FD0 /* ZWImagePrefetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0500A01D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcher" */;
+			buildPhases = (
+				FA05006F1D4B68EC007D2FD0 /* Sources */,
+				FA0500701D4B68EC007D2FD0 /* Frameworks */,
+				FA0500711D4B68EC007D2FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWImagePrefetcher;
+			productName = ZWImagePrefetcher;
+			productReference = FA0500731D4B68EC007D2FD0 /* ZWImagePrefetcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA05008B1D4B68EC007D2FD0 /* ZWImagePrefetcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0500A31D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcherTests" */;
+			buildPhases = (
+				FA0500881D4B68EC007D2FD0 /* Sources */,
+				FA0500891D4B68EC007D2FD0 /* Frameworks */,
+				FA05008A1D4B68EC007D2FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA05008E1D4B68EC007D2FD0 /* PBXTargetDependency */,
+			);
+			name = ZWImagePrefetcherTests;
+			productName = ZWImagePrefetcherTests;
+			productReference = FA05008C1D4B68EC007D2FD0 /* ZWImagePrefetcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA0500961D4B68EC007D2FD0 /* ZWImagePrefetcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0500A61D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcherUITests" */;
+			buildPhases = (
+				FA0500931D4B68EC007D2FD0 /* Sources */,
+				FA0500941D4B68EC007D2FD0 /* Frameworks */,
+				FA0500951D4B68EC007D2FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0500991D4B68EC007D2FD0 /* PBXTargetDependency */,
+			);
+			name = ZWImagePrefetcherUITests;
+			productName = ZWImagePrefetcherUITests;
+			productReference = FA0500971D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA05006B1D4B68EC007D2FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA0500721D4B68EC007D2FD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FA05008B1D4B68EC007D2FD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA0500721D4B68EC007D2FD0;
+					};
+					FA0500961D4B68EC007D2FD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FA0500721D4B68EC007D2FD0;
+					};
+				};
+			};
+			buildConfigurationList = FA05006E1D4B68EC007D2FD0 /* Build configuration list for PBXProject "ZWImagePrefetcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA05006A1D4B68EC007D2FD0;
+			productRefGroup = FA0500741D4B68EC007D2FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0500721D4B68EC007D2FD0 /* ZWImagePrefetcher */,
+				FA05008B1D4B68EC007D2FD0 /* ZWImagePrefetcherTests */,
+				FA0500961D4B68EC007D2FD0 /* ZWImagePrefetcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0500711D4B68EC007D2FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0500861D4B68EC007D2FD0 /* LaunchScreen.storyboard in Resources */,
+				FA0500831D4B68EC007D2FD0 /* Assets.xcassets in Resources */,
+				FA0500811D4B68EC007D2FD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA05008A1D4B68EC007D2FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0500951D4B68EC007D2FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA05006F1D4B68EC007D2FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05007E1D4B68EC007D2FD0 /* ViewController.m in Sources */,
+				FA05007B1D4B68EC007D2FD0 /* AppDelegate.m in Sources */,
+				FA0500781D4B68EC007D2FD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0500881D4B68EC007D2FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0500911D4B68EC007D2FD0 /* ZWImagePrefetcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0500931D4B68EC007D2FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05009C1D4B68EC007D2FD0 /* ZWImagePrefetcherUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA05008E1D4B68EC007D2FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0500721D4B68EC007D2FD0 /* ZWImagePrefetcher */;
+			targetProxy = FA05008D1D4B68EC007D2FD0 /* PBXContainerItemProxy */;
+		};
+		FA0500991D4B68EC007D2FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA0500721D4B68EC007D2FD0 /* ZWImagePrefetcher */;
+			targetProxy = FA0500981D4B68EC007D2FD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA05007F1D4B68EC007D2FD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0500801D4B68EC007D2FD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA0500841D4B68EC007D2FD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA0500851D4B68EC007D2FD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA05009E1D4B68EC007D2FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA05009F1D4B68EC007D2FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0500A11D4B68EC007D2FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWImagePrefetcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePrefetcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA0500A21D4B68EC007D2FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWImagePrefetcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePrefetcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA0500A41D4B68EC007D2FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZWImagePrefetcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePrefetcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWImagePrefetcher.app/ZWImagePrefetcher";
+			};
+			name = Debug;
+		};
+		FA0500A51D4B68EC007D2FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZWImagePrefetcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePrefetcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWImagePrefetcher.app/ZWImagePrefetcher";
+			};
+			name = Release;
+		};
+		FA0500A71D4B68EC007D2FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZWImagePrefetcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePrefetcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWImagePrefetcher;
+			};
+			name = Debug;
+		};
+		FA0500A81D4B68EC007D2FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZWImagePrefetcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alex.ZWImagePrefetcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWImagePrefetcher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA05006E1D4B68EC007D2FD0 /* Build configuration list for PBXProject "ZWImagePrefetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05009E1D4B68EC007D2FD0 /* Debug */,
+				FA05009F1D4B68EC007D2FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0500A01D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0500A11D4B68EC007D2FD0 /* Debug */,
+				FA0500A21D4B68EC007D2FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA0500A31D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0500A41D4B68EC007D2FD0 /* Debug */,
+				FA0500A51D4B68EC007D2FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA0500A61D4B68EC007D2FD0 /* Build configuration list for PBXNativeTarget "ZWImagePrefetcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0500A71D4B68EC007D2FD0 /* Debug */,
+				FA0500A81D4B68EC007D2FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA05006B1D4B68EC007D2FD0 /* Project object */;
+}
