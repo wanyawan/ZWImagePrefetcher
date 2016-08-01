@@ -36,7 +36,9 @@
     }
     SEL sel = NSSelectorFromString(imageKey);
     if ([baseModel respondsToSelector:sel]) {
-        id value = [baseModel performSelector:sel]; //IMP等等改
+        IMP imp = [baseModel methodForSelector:sel];
+        id (*func)(id,SEL) = (void *)imp;
+        id value = func(baseModel,sel);
         if ([value isKindOfClass:[NSString class]]) {
             return value;
         }else if([value isKindOfClass:[DemoBaseModel class]]){
